@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="0.442" tests="2" skipped="0" failures="0" errors="0">
+<testcase classname="Site user has access to see the locks" name="login as site user and check available locks - Example #1.1" time="0.045">
+<system-out><![CDATA[
+Given login as "superSiteuser" with "qaengineer8888@gmail.com" and "test12345@".passed
+When on "settings" screen...................................................passed
+Then user can see "Test First" "Last Name" "qaengineer8888@gmail.com" and "superSiteuser".passed
+When on "lock" screen.......................................................passed
+Then user can see available locks...........................................passed
+Then user log out...........................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Site user has access to see the locks" name="login as site user and check available locks - Example #1.2" time="0.014">
+<system-out><![CDATA[
+Given login as "siteuser" with "qaengineer1111@gmail.com" and "test12345@"..passed
+When on "settings" screen...................................................passed
+Then user can see "Test second" "Second Last Name" "qaengineer1111@gmail.com" and "siteuser".passed
+When on "lock" screen.......................................................passed
+Then user can see available locks...........................................passed
+Then user log out...........................................................passed
+]]></system-out>
+</testcase>
+</testsuite>
